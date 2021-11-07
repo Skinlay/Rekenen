@@ -7,6 +7,7 @@ namespace Rekenen
     {
         static void Main(string[] args)
         {
+            /*
             //exponents
             Console.WriteLine("Hello World!");
 
@@ -17,6 +18,8 @@ namespace Rekenen
 
             Result = Math.Pow(Number1, Number2);
             Console.WriteLine(Result);
+            */
+
 
         }
     }
