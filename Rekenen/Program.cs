@@ -20,6 +20,18 @@ namespace Rekenen
             Console.WriteLine(Result);
             */
 
+            //Oppervlakte driehoek = (BASIS x HOOGTE)/2
+
+            double oppervlakte, Number1, Number2;
+
+            Console.WriteLine("de lengte van de onderkant van de driehoek");
+            Number1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("de lengte van de hoogt van de driehoek");
+            Number2 = Convert.ToInt32(Console.ReadLine());
+
+            oppervlakte = (Number1 * Number2) / 2;
+            Console.WriteLine("de oppervlakte van de driehoek is: " + oppervlakte);
 
         }
     }
